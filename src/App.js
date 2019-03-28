@@ -4,6 +4,7 @@ import Welcome from './Welcome'
 import Counter from './Counter'
 import Todos from './Todos'
 import Users from './Users'
+import Library from './Library'
 
 class App extends Component {
   render() {
@@ -12,7 +13,7 @@ class App extends Component {
         <header className="App-header">
           <Welcome title="React" />
         </header>
-        <Users/>
+        <Library/>
       </div>
     );
   }
